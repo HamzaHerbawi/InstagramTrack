@@ -16,10 +16,10 @@ else
 	exit 0
 	else
 
-		#aws sns create-sms-sandbox-phone-number --phone-number "$2"
+		aws sns create-sms-sandbox-phone-number --phone-number "$2"
 		echo "Enter Verification Code"
 		read code
-		#aws sns verify-sms-sandbox-phone-number --phone-number "$2" --one-time-password "$code"
+		aws sns verify-sms-sandbox-phone-number --phone-number "$2" --one-time-password "$code"
 
 			while true
 			 do
