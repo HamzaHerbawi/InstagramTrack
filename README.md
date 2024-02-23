@@ -2,7 +2,7 @@
 
 A tool to track Instagram profile pictures and send SMS notifications if they change using AWS SNS (Simple Notification Service).
 
-## requirements
+## Requirements
 1) Create an appropriate [AWS user](https://console.aws.amazon.com/iam/). with AmazonSNSFullAccess permission
 
 <p align="center">
