@@ -50,6 +50,15 @@ $ chmod +x instatrack.sh
 ```console
 $ ./instatrach.sh UserName_Instagram your_PhoneNumber
   Enter Verification Code
-
+  xxxxxx
 ```
+   <p>
+<img width="30%" height="70%" src="https://github.com/HamzaHerbawi/InstagramTrack/blob/master/images/3.jpg"/>
+</a>
+</p>
+
+And that's it 🎉🎉
+
+- Now, if this user changes their profile picture, you will receive an SMS notification `username changed instagram picture`.
+- Run this tool on any server you own, exercising caution to avoid server crashes.
 
