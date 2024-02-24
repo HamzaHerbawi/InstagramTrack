@@ -78,6 +78,22 @@ $ ./instatrach.sh UserName_Instagram your_PhoneNumber
 And that's it 🎉🎉
 
 ### Now, if this user changes their profile picture, you will receive an SMS notification `username changed instagram picture`.
-- Run this tool on any server you own, exercising caution to avoid server crashes.
   
 ## Notes
+
+- Run this tool on any server you own, exercising caution to avoid server crashes.
+- Ensure that the AWS credentials configured on your system have the necessary permissions to publish messages to the specified SNS topic.
+- Check grep version with Perl regular expressions
+  ```console
+  $ grep -V
+    grep (GNU grep) 3.11
+    Copyright (C) 2023 Free Software Foundation, Inc.
+    License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+    This is free software: you are free to change and redistribute it.
+    There is NO WARRANTY, to the extent permitted by law.
+   
+    Written by Mike Haertel and others; see
+    <https://git.savannah.gnu.org/cgit/grep.git/tree/AUTHORS>.
+   
+    grep -P uses PCRE2 10.42 2022-12-11
+   ```
