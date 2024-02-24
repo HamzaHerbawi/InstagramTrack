@@ -2,6 +2,24 @@
 
 A tool to track Instagram profile pictures and send SMS notifications if they change using AWS SNS (Simple Notification Service).
 
+<br>
+   <p align="center">
+<img width="60%" height="70%" src="https://drive.usercontent.google.com/download?id=1HZc842tJWo5lsPksW63F4KqGIfFtOB6e&export=view"/>
+</a>
+</p>
+<br>
+
+<p align="center">
+  <a href="#requirements">Requirements</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#installation">Installation</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#usage">Usage</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#notes">Notes</a>
+</p>
+<br>
+
 ## Requirements
 1) Create an appropriate [AWS user](https://console.aws.amazon.com/iam/). with AmazonSNSFullAccess permission
 
@@ -59,6 +77,7 @@ $ ./instatrach.sh UserName_Instagram your_PhoneNumber
 
 And that's it 🎉🎉
 
-- Now, if this user changes their profile picture, you will receive an SMS notification `username changed instagram picture`.
+### Now, if this user changes their profile picture, you will receive an SMS notification `username changed instagram picture`.
 - Run this tool on any server you own, exercising caution to avoid server crashes.
-
+  
+## Notes
